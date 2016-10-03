@@ -17,21 +17,33 @@
     </div>
   </div>
 </div>
-<?php if (have_rows('study_details')) { ?>
+
 <div class="light-container-wrapper study-detail-bottom">
 	<div class="container">
 		<div class="row">
-			<?php while(have_rows('study_details')) { the_row(); ?>
 			<div class="col-sm-3">
-				<span class="<?php the_sub_field('icon_class') ?>"></span>
-				<h4><?php the_sub_field('label') ?></h4>
-				<?php the_sub_field('content') ?>
+				<span class="hs-icons hs-money"></span>
+				<h4>Compensation</h4>
+				<?php the_field('study_compensation') ?>
 			</div>
-			<?php } ?>
+			<div class="col-sm-3">
+				<span class="hs-icons hs-people"></span>
+				<h4>Needed</h4>
+				<?php the_field('study_needed') ?>
+			</div>
+			<div class="col-sm-3">
+				<span class="hs-icons hs-blue-calendar"></span>
+				<h4>Dates</h4>
+				<?php the_field('study_dates') ?>
+			</div>
+			<div class="col-sm-3">
+				<span class="hs-icons hs-location"></span>
+				<h4>Location</h4>
+				<?php the_field('study_location') ?>
+			</div>
 		</div>
 	</div>
 </div>
-<?php } ?>
 
 <div class="gradient-container-wrapper back-to-studies">
   <div class="container">

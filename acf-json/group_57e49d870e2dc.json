@@ -5,7 +5,7 @@
         {
             "key": "field_57f2097cae7dc",
             "label": "Active \/ visible",
-            "name": "active",
+            "name": "study_active",
             "type": "true_false",
             "instructions": "",
             "required": 0,
@@ -19,90 +19,80 @@
             "default_value": 1
         },
         {
-            "key": "field_57e49d936f961",
-            "label": "Study details",
-            "name": "study_details",
-            "type": "repeater",
+            "key": "field_57f244ef5d4bc",
+            "label": "Compensation",
+            "name": "study_compensation",
+            "type": "textarea",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "25",
                 "class": "",
                 "id": ""
             },
-            "collapsed": "",
-            "min": "",
-            "max": "",
-            "layout": "table",
-            "button_label": "Add Field",
-            "sub_fields": [
-                {
-                    "key": "field_57e4ac80529ca",
-                    "label": "Icon class",
-                    "name": "icon_class",
-                    "type": "text",
-                    "instructions": "hs-icons hs-money\r\nhs-icons hs-people\r\nhs-icons hs-blue-calendar\r\nhs-icons hs-location",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "20",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_57e49e116f962",
-                    "label": "Field label",
-                    "name": "label",
-                    "type": "select",
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "20",
-                        "class": "",
-                        "id": ""
-                    },
-                    "choices": {
-                        "compensation": "Compensation",
-                        "needed": "Needed",
-                        "dates": "Dates",
-                        "location": "Location"
-                    },
-                    "default_value": [],
-                    "allow_null": 0,
-                    "multiple": 0,
-                    "ui": 0,
-                    "ajax": 0,
-                    "return_format": "value",
-                    "placeholder": ""
-                },
-                {
-                    "key": "field_57e49f016f964",
-                    "label": "Content",
-                    "name": "content",
-                    "type": "textarea",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "60",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "maxlength": "",
-                    "rows": "",
-                    "new_lines": "wpautop"
-                }
-            ]
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_57f2451d5d4bd",
+            "label": "Needed",
+            "name": "study_needed",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_57f2452d5d4be",
+            "label": "Dates",
+            "name": "study_dates",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_57f245405d4bf",
+            "label": "Location",
+            "name": "study_location",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
         }
     ],
     "location": [
@@ -122,5 +112,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1475479971
+    "modified": 1475496301
 }
