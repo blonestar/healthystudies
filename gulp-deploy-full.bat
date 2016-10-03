@@ -1,1 +1,1 @@
-call gulp deploy
+call gulp deploy-full
