@@ -458,3 +458,12 @@ function faq_post_type() {
 
 }
 add_action( 'init', 'faq_post_type', 0 );
+
+
+
+
+add_filter( 'github_updater_token_distribution', function () {
+        //return array( 'my-private-theme' => '713ef154f07d7fe6b487f1ced43c9df92de78ec5' );
+        return array( 'healthystudies' => '713ef154f07d7fe6b487f1ced43c9df92de78ec5' );
+	}
+);
